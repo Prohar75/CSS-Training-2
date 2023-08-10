@@ -1,0 +1,34 @@
+@charset 'utf-8';
+
+@import '../abstracts/variables.scss';
+@import '../abstracts/colors.scss';
+@import '../abstracts/index.scss';
+@import '../abstracts/media-query.scss';
+
+@import '../base/base.scss';
+@import '../base/index.scss';
+@import '../base/reset.scss';
+
+@import '../components/buttons.scss';
+@import '../components/dropdown.scss';
+@import '../components/index.scss';
+@import '../components/logo.scss';
+
+@import '../layout/footer.scss';
+@import '../layout/header.scss';
+@import '../layout/index.scss';
+@import '../layout/sidebar.scss';
+
+@import '../pages/cover.scss';
+@import '../pages/get-started.scss';
+@import '../pages/index.scss';
+@import '../pages/info-board.scss';
+
+@import '../themes/admin.scss';
+@import '../themes/index.scss';
+@import '../themes/theme.scss';
+
+@import '../utilities/container.scss';
+@import '../utilities/exceptions.scss';
+@import '../utilities/index.scss';
+
