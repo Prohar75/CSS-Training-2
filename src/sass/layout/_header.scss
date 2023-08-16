@@ -1,0 +1,10 @@
+@use "../abstracts/" as *;
+
+._header
+{
+    display: grid;
+    grid-template-areas: 
+    'label label'
+    'logo logo-label';
+    grid-template-columns: 100px;
+}

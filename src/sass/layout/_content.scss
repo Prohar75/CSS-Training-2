@@ -1,0 +1,10 @@
+@use "../abstracts" as *;
+
+._content
+{
+    display: grid;
+    grid-template-areas: 
+    'label'
+    'text';
+    width: 600px;
+}

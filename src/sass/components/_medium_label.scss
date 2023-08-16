@@ -1,0 +1,13 @@
+@use "../abstracts" as *;
+
+._medium_label
+{
+    font-size: $medium-font-size;
+    background: $background-label;
+    text-align: center;
+    max-width: 600px;
+    padding: 15px 20px;
+    border-radius: 12px;
+    margin: auto auto 50px 0;
+    grid-area: label;
+}

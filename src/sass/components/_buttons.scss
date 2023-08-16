@@ -1,0 +1,42 @@
+@use "../abstracts" as *;
+
+._button
+{
+    background-color: $white-alpha;
+    height: 52px;
+    padding: 8px 10px;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    border: 0px;
+    border-radius: 12px;
+    font-size: 16px;
+    margin: auto;
+    display: flex;
+    transition: 0.1s ease-in-out;
+}
+._button:hover
+{
+    background-color: opacify($color: $white-alpha, $amount: 0.1);
+    transition: 0.1s ease-in-out;
+}
+._button:active
+{
+    background-color: opacify($color: $white-alpha, $amount: 0);
+    filter: brightness(85%);
+    transition: 0.1s ease-in-out;
+}
+._button-text
+{
+    margin-top: 7px;
+    margin-left: 10px;    
+}
+
+._figma-button
+{
+    margin-left: 50px;
+}
+._author-button
+{
+    margin-right: 50px; 
+    padding-top: 15px;
+}

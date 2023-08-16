@@ -1,0 +1,56 @@
+@use "../abstracts/" as *;
+
+._figma-logo
+{
+    width: 37px;
+    height: 37px;
+    background-color: $f-darker-gray;
+    border-radius: 10px;
+}
+._contain-logo
+{
+    display: grid;
+    grid-template-areas:
+    'f-red f-light-red'
+    'f-purple f-blue'
+    'f-green none';
+    grid-template-columns: 7.82px 7.82px ;
+    grid-template-rows: 7.82px 7.82px 7.82px;
+    position: fixed;
+    margin-top: 7px;
+    margin-left: 11px;
+}
+._red-block
+{
+    background-color: $f-red;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    grid-area: f-red;
+}
+._light-red-block
+{
+    background-color: $f-light-red;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    grid-area: f-light-red;
+}
+._purple-block
+{
+    background-color: $f-purple;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    grid-area: f-purple;
+}
+._blue-block
+{
+    background-color: $f-blue;
+    border-radius: 5px;
+    grid-area: f-blue;
+}
+._green-block
+{
+    background-color: $f-green;
+    border-radius: 5px;
+    border-top-right-radius: 0px;
+    grid-area: f-green;
+}
