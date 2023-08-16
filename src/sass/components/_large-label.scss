@@ -1,0 +1,9 @@
+@use "../abstracts/" as *;
+
+._large-label
+{
+    font-size: 80px;
+    font-weight: lighter;
+    margin: 50px auto auto 0;
+    color: $light-green;
+}
