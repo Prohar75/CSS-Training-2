@@ -3,7 +3,7 @@ $font-color: #ffffff;
 $light-green: #00FF66;
 $white-alpha: rgba($color: #ffffff, $alpha: 0.11);
 
-$blur-gradient: linear-gradient(rgba($color: #9e9e9e, $alpha: 0.30), rgba($color: #000000, $alpha: 1));
+$blur-gradient: linear-gradient(rgba($color: #9e9e9e, $alpha: 0.30), rgba($color: #202020, $alpha: 0.80), rgba($color: #000000, $alpha: 1));
 
 /* MEDiUM LABEL */
 
@@ -18,3 +18,19 @@ $f-light-red: #FF7262;
 $f-purple: #A259FF;
 $f-blue: #1ABCFE;
 $f-green: #0ACF83;
+
+
+/* MARK */
+
+$green-mark: hsl(120, 80%, 63%);
+$yellow-mark: hsl(59, 80%, 63%);
+$red-mark: hsl(0, 80%, 63%);
+
+
+/* LINK */
+$link-color: #6B50F6;
+
+/* COLORED BLOCK */
+
+$blue-side: #6B50F6;
+$green-side: #00FF66;

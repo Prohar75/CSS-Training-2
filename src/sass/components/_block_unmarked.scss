@@ -1,0 +1,25 @@
+@use "../abstracts/" as *;
+
+
+._block_unmarked ._line-1
+{
+    width: 2px;
+    height: 9px;
+    background-color: $red-mark;
+    border-radius: 3px;
+    transform: rotate(45deg);
+    margin-left: 6px;
+    margin-top: 3px;
+    position: fixed;
+}
+._block_unmarked ._line-2
+{
+    width: 2px;
+    height: 9px;
+    background-color: $red-mark;
+    border-radius: 3px;
+    transform: rotate(-45deg);
+    margin-left: 6px;
+    margin-top: 3px;
+    position: fixed;
+}

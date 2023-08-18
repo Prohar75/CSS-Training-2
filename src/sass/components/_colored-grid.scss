@@ -1,0 +1,28 @@
+@use "../abstracts/" as *;
+
+._block_blue-side
+{    
+    width: 215px;
+    text-align: center;
+    background-color: $blue-side;
+    border-radius: 32px 0px 0px 32px;
+    padding-top: 40px;
+    line-height: 10px;
+}
+._block_green-side
+{
+
+    width: 215px;
+    text-align: center;
+    background-color: $green-side;
+    border-radius: 0px 32px 32px 0px;
+    padding-top: 40px;
+    line-height: 10px;
+}
+._colored-grid
+{
+    padding: 0px;
+    width: 430px;
+    display: grid;
+    grid-template-areas: '1 2';
+}

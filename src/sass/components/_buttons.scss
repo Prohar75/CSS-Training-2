@@ -11,6 +11,7 @@
     border-radius: 12px;
     font-size: 16px;
     margin: auto;
+    margin-top: 25px;
     display: flex;
     transition: 0.1s ease-in-out;
 }
@@ -39,4 +40,21 @@
 {
     margin-right: 50px; 
     padding-top: 15px;
+}
+
+
+
+._button-p
+{
+    background-color: $white-alpha;
+    height: 52px;
+    padding: 8px 20px;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    border: 0px;
+    border-radius: 12px;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-top: 25px;
+    transition: 0.1s ease-in-out;
 }

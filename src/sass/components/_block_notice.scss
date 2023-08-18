@@ -1,0 +1,36 @@
+@use "../abstracts/" as *;
+
+._block_notice
+{
+    line-height: 20px;
+    display: grid;
+    grid-template-areas: 'mark-1 text';
+    margin-bottom: 10px;
+}
+._block_mark
+{
+    width: 15px;
+    height: 15px;
+    border: 2px solid white;
+    border-radius: 100%;
+    margin-top: 4px;
+    margin-right: 5px;
+}
+._block_notice ._line-1
+{
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    margin-top: 3.5px;
+    margin-left: 3px;
+    background-color: transparent;
+    border: 2px solid $yellow-mark;
+}
+._block_notice ._line-2
+{
+    display: none;
+}
+._block_text
+{
+    font-size: 15px;
+}

@@ -1,0 +1,31 @@
+@use "../abstracts" as *;
+
+._first-page
+{
+    background-color: $background;
+    background-image: url(../../assets/main-page-bg.png);
+    background-size: 800px 1000px;
+    background-position-x: right;
+    background-repeat: repeat-y;
+    color: $font-color;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Questrial', sans-serif;
+    transition: 0.1s ease-in-out;
+}
+@media (max-width: $medium) 
+{
+    ._first-page
+    {
+        background-position-x: 700px;
+        transition: 0.1s ease-in-out;
+    }
+}
+@media (max-width: $small)
+{
+    ._first-page
+    {
+        background-position-x: 800px;
+        transition: 0.1s ease-in-out;
+        background-repeat: repeat;
+    }
+}

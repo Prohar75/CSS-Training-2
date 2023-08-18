@@ -1,0 +1,11 @@
+@use "../abstracts/" as *;
+
+._block_paragraph
+{
+    line-height: 20px;
+    margin-top: 20px;
+}
+._block_paragraph a
+{
+    color: $link-color;
+}

@@ -1,0 +1,93 @@
+@use "../abstracts" as *;
+
+._second-page
+{
+    background-color: $background;
+    background-image: url(../../assets/second-page-bg.jpg);
+    background-size: 100% 100%;
+    backdrop-filter: blur(60px) brightness(30%);
+    margin: 0px;
+    background-position-x: right;
+    background-repeat: repeat-y;
+    color: $font-color;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Questrial', sans-serif;
+    transition: 0.1s ease-in-out;
+}
+._second_page-grid
+{
+    display: grid;
+    grid-template-areas: 
+    'highlights license introduction colored'
+    'highlights license introduction usable'
+    'highlights logo introduction usable'
+    'highlights attention introduction usable'
+    'highlights attention features bg'
+    'highlights attention features bg';
+    //grid-template-rows: 200px;
+}
+
+._highlights-grid
+{
+    grid-area: highlights;
+}
+._licence-grid
+{
+    grid-area: license;
+    margin-left: 0px;
+}
+._logo-grid
+{
+    display: flex;
+    grid-area: logo;
+
+}
+._logo-grid ._logo
+{
+    margin-right: 10px;
+    margin-top: 5PX;
+    width: 60px;
+    height: 60px;
+
+}
+._attention-grid
+{
+    grid-area: attention;
+}
+._attention-grid img
+{
+    width: 300px;
+    height: 300px;
+    position: fixed;
+    margin-left: -205px;
+    margin-top: 76px;
+    border-bottom-right-radius: 32px;
+    border-top-left-radius: 32px;
+}
+._introduction-grid
+{
+    grid-area: introduction;
+}
+._features-grid
+{
+    grid-area: features;
+}
+._colored-grid
+{
+    grid-area: colored;
+}
+._usable-grid
+{
+    grid-area: usable;
+}
+._bg-grid
+{
+    grid-area: bg;
+    padding: 0px;
+    width: 430px;
+}
+._bg-grid img
+{
+    width: 100%;
+    height: 100%;
+}

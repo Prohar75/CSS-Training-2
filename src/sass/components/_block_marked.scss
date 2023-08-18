@@ -1,0 +1,46 @@
+@use "../abstracts/" as *;
+
+._block_marked
+{
+    line-height: 18px;
+    display: flex;
+    grid-template-areas: 'mark-1 text';
+    margin-bottom: 10px;
+}
+._block_mark
+{
+    width: 15px;
+    height: 15px;
+    border: 2px solid white;
+    border-radius: 100%;
+    margin-top: 0px;
+}
+._line-1
+{
+    width: 2px;
+    height: 10px;
+    background-color: $green-mark;
+    border-radius: 3px;
+    transform: rotate(45deg);
+    margin-left: 8px;
+    margin-top: 2px;
+    position: fixed;
+}
+._line-2
+{
+    width: 2px;
+    height: 5px;
+    background-color: $green-mark;
+    border-radius: 3px;
+    transform: rotate(-45deg);
+    margin-left: 3.5px;
+    margin-top: 6px;
+    position: fixed;
+}
+._block_text
+{
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 4px;
+    width: 320px;
+}
